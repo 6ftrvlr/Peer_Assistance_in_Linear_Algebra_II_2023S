@@ -1,0 +1,285 @@
+\documentclass[a4paper]{article}
+\usepackage[left=0.6in,right=0.6in,top=0.8in,bottom=1in]{geometry}
+\usepackage{amscd,amssymb,amsfonts,amsbsy,amsmath,verbatim,color, mathrsfs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{tikz,tikz-3dplot}
+\usepackage{metalogo}
+\usepackage{xeCJK}  %务必使用XeLaTeX编译!!!
+\usepackage{fontspec}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{diagbox}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{bm}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{colortbl}
+%\usepackage{background}
+\usepackage{lipsum}
+\usepackage{wrapfig}
+\usepackage{picinpar}
+\usepackage{xpatch}
+\usepackage{yhmath}
+\usepackage[colorlinks,linkcolor=black,anchorcolor=blue,citecolor=green]{hyperref}
+\newcommand\bi{(\item)}
+\newcommand\ee{\mathrm{e}}
+\newcommand\dd{\mathrm{d}}
+\newcommand\ii{\mathrm{i}}
+\newcommand\CC{\mathrm{C}}
+\newcommand\bsy{\boldsymbol}
+\newcommand\CCC{\mathbb{C}}
+\newcommand\sqm{n \times n}
+
+\newtheorem{exa}{例题}[subsection]
+\newtheorem{exec}{习题}[section]
+\newtheorem{thm}{定理}[subsection]
+
+% 应同学的请求,公布LaTeX源代码.LaTeX真好玩.
+% 不过玩得不是很明白啊,前面一坨调包,看着个新包就调,
+% 调得越来越长,以至于我都不知道有些包有些代码是干啥的了.
+% 另外,CJK字体设置也是我的知识盲区,
+% 我拿那个什么CJK什么family那句命令加载个字体全篇都跟着动.
+% 所以PDF文档里面标题字体不太一样,那是我拿Adobe Acrobat改的.
+% 对了,multirow我也不太会用.有道题的题文,直接编译文字是断开的,
+% 文档里面是连着的,那也是我拿Adobe Acrobat改的.
+% 另外,码风不太好,草盛豆苗稀.
+% 如果同学会用,还请不吝赐教.
+% 不过,看来我还是更会玩Acrobat呢.
+
+\begin{document}
+\begin{spacing}{1.5}
+
+\begin{center}
+    \begin{Large}
+    
+    {《高等代数》课后辅导 :期中考前练习}
+    \end{Large}
+\end{center}
+
+\everymath{\displaystyle}
+\begin{center}
+    
+    \textit{试题共2页,6道大题.建议完成时间为110min.}
+    
+    
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%    %%%
+%   %   %  %
+%   %  %   %
+%   %      %
+%%%%%  %%%%%
+%%%%%%%%%%%%%%%%%%%%
+\vspace{5mm}
+\begin{table}[!ht]
+	\renewcommand\arraystretch{2}
+	\begin{tabular}{m{1cm}<{\centering}m{12cm}m{2cm}m{1.5cm}<{\centering}}
+ \Large\cellcolor{black} \textcolor{white}{\textsf{01}}  & \large \cellcolor{lightgray}\textsf{互素多项式} & &\cellcolor{lightgray} \large{12\%} \\
+\end{tabular}
+\end{table}设$f(x)=x^3-x+2,g(x)=x^2+1\in\mathbb{Q}[x]$.验证$(f,g)=1$,并求$u(x),v(x)\in\mathbb{Q}[x]$,使得$u(x)f(x)+v(x)g(x)=1$.
+\vspace{20mm}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%  %%%%%
+%   %      %
+%   %  %%%%%
+%   %  %
+%%%%%  %%%%%
+%%%%%%%%%%%%%%%%%%%%
+\vspace{5mm}
+\begin{table}[!ht]
+	\renewcommand\arraystretch{2}
+	\begin{tabular}{m{1cm}<{\centering}m{12cm}m{2cm}m{1.5cm}<{\centering}}
+ \Large\cellcolor{black} \textcolor{white}{\textsf{02}}  & \large \cellcolor{lightgray}\textsf{矩阵的不变因子} & &\cellcolor{lightgray} \large{20\%} \\
+\end{tabular}
+\end{table}已知矩阵$\bsy{A}\in\mathbb{C}^{8\times8}$的不变因子除却$6$个1以外还有多项式$(\lambda - 2)(\lambda ^2+4)^s$与$(\lambda - 2)^t(\lambda ^2+4)$,其中$s$与$t$都是正整数,且$t>1$.请求解下面内容,并给出完整步骤或原理说明:
+\begin{spacing}{1.7}
+\begin{tabular}{p{5cm}p{5cm}p{5cm}}
+%   \toprule
+    \textbf{i.}$s,t$的值;&
+    \textbf{ii.}$\bsy{A}$的所有初等因子;&
+    \textbf{iii.}$\bsy{A}$的Jordan标准形;\\
+    % \midrule
+    \textbf{iv.}$\bsy{A}$的最小多项式;&
+    \textbf{v.}$\bsy{B}=\bsy{A}^{60}$的最小多项式;&\\
+    \textbf{vi.}若矩阵$\bsy{A}$可看作实数矩&阵,$\bsy{A}$的有理标准形.&\\
+    % \bottomrule
+\end{tabular}
+\end{spacing}
+\vspace{20mm}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%  %%%%%
+%   %      %
+%   %  %%%%%
+%   %      %
+%%%%%  %%%%%
+%%%%%%%%%%%%%%%%%%%%
+\vspace{5mm}
+\begin{table}[!ht]
+	\renewcommand\arraystretch{2}
+	\begin{tabular}{m{1cm}<{\centering}m{12cm}m{2cm}m{1.5cm}<{\centering}}
+ \Large\cellcolor{black} \textcolor{white}{\textsf{03}}  & \large \cellcolor{lightgray}\textsf{线性变换} & &\cellcolor{lightgray} \large{24\%} \\
+\end{tabular}
+\end{table}
+
+设$V$为一复数域上的三维线性空间,$\mathscr{A}$为该线性空间上的一个线性变换,且$\mathscr{A}$在基$\bsy{e}_1,\bsy{e}_2,\bsy{e}_3$下的矩阵为$\bsy{A} = \begin{pmatrix}4&-3&4\\3&-2&4\\8&-8&9\end{pmatrix}.$
+\begin{enumerate}
+        \item[\textbf{i.}] 试以$\bsy{e}_1,\bsy{e}_2,\bsy{e}_3$的线性组合表示出一组基$\bsy{f}_1,\bsy{f}_2,\bsy{f}_3$,使得$\mathscr{A}$在基$\bsy{f}_1,\bsy{f}_2,\bsy{f}_3$下的矩阵为Jordan标准型;
+        \item[\textbf{ii.}]若该线性空间上的一个线性变换$\mathscr{F}$满足$\mathscr{F}^2+9\mathscr{E}=10\mathscr{F}$(其中$\mathscr{E}$为恒等变换),则该线性变换在某组基下的矩阵是否可能为$\bsy{A}$?请说明理由.
+        \item[\textbf{iii.}]是否存在一个线性变换$\mathscr{B}$满足$\mathscr{B}^2=\mathscr{A}$?若存在,请求出$\mathscr{B}$在基$\bsy{e}_1,\bsy{e}_2,\bsy{e}_3$下的矩阵;若不存在,请证明之;
+        \item[\textbf{iv.}]记集合$C$为$V$上所有满足$\mathscr{AC}=\mathscr{CA}$(即可交换性)的线性变换组成的集合,试证明集合$C$(在线性变换之加法与数乘运算的意义下)构成复数域上的线性空间,并计算它的维数.
+    \end{enumerate}
+
+
+
+
+
+
+\vspace{15mm}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%  %   %
+%   %  %   %
+%   %  %%%%%
+%   %      %
+%%%%%      %
+%%%%%%%%%%%%%%%%%%%%
+\begin{table}[!ht]
+	\renewcommand\arraystretch{2}
+	\begin{tabular}{m{1cm}<{\centering}m{12cm}m{2cm}m{1.5cm}<{\centering}}
+ \Large\cellcolor{black} \textcolor{white}{\textsf{04}}  & \large \cellcolor{lightgray}\textsf{多项式的整除问题} & &\cellcolor{lightgray} \large{14\%} \\
+\end{tabular}
+\end{table}
+证明:多项式$f(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0$能被$(x-1)^k$整除的充要条件为
+$$\left( \begin{matrix}
+	1&		1&		1&		\cdots&		1\\
+	1&		2&		3&		\cdots&		n\\
+	1&		4&		9&		\cdots&		n^2\\
+	\vdots&		\vdots&		\vdots&		\ddots&		\vdots\\
+	1&		2^k&		3^k&		\cdots&		n^k\\
+\end{matrix} \right) \left( \begin{matrix}
+	a_0\\
+	a_1\\
+	a_2\\
+	\vdots\\
+	a_n\\
+\end{matrix} \right) =\left( \begin{matrix}
+	0\\
+	0\\
+	0\\
+	\vdots\\
+	0\\
+\end{matrix} \right) .$$
+
+
+\vspace{5mm}
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%  %%%%%
+%   %  %   
+%   %  %%%%%
+%   %      %
+%%%%%  %%%%%
+%%%%%%%%%%%%%%%%%%%%
+\begin{table}[!ht]
+	\renewcommand\arraystretch{2}
+	\begin{tabular}{m{1cm}<{\centering}m{12cm}m{2cm}m{1.5cm}<{\centering}}
+ \Large\cellcolor{black} \textcolor{white}{\textsf{05}}  & \large \cellcolor{lightgray}\textsf{中国剩余定理} & &\cellcolor{lightgray} \large{16\%} \\
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item[\textbf{I.}] 若$p_k(x)\in \mathbb{P} [x](k=1,2,\cdots,s)$是一组两两互素的非零次多项式,~$f_k(x)\in \mathbb{P} [x](k=1,2,\cdots,s)$为一组不全为零的多项式,证明下面两个命题:
+    \begin{enumerate}
+        \item[\textbf{i.}] $\exists h_k(x)\in \mathbb{P} [x](k=1,2,\cdots,s)$,使得$$ p_i(x)|h_k(x)-\delta_{ik} ,\forall i=1,2,\cdots,s,$$
+其中$\delta_{ik}$为Kronecker符号,当$i=k$时取1,否则取0;
+
+        \item[\textbf{ii.}]$\exists F(x)\in\mathbb{P}[x]$,使得$$p_i(x)|F(x)-f_i(x),\forall i = 1,2,\cdots,s.$$
+    \end{enumerate}
+\item[\textbf{II.}] 对于问题\textsf{01}中的多项式$f(x)$与$g(x)$,求一个次数不超过4的多项式$h(x)\in\mathbb{Q}[x]$,  使得
+$$f(x)|h(x)+4x,g(x)|h(x)-4.$$
+\end{enumerate}
+\vspace{5mm}
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%  %%%%%
+%   %  %   
+%   %  %%%%%
+%   %  %   %
+%%%%%  %%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[!ht]
+	\renewcommand\arraystretch{2}
+	\begin{tabular}{m{1cm}<{\centering}m{12cm}m{2cm}m{1.5cm}<{\centering}}
+ \Large\cellcolor{black} \textcolor{white}{\textsf{06}}  & \large \cellcolor{lightgray}\textsf{矩阵指数} & &\cellcolor{lightgray} \large{14\%} \\
+\end{tabular}
+\end{table}
+
+设$\bsy{A}$为$n$阶方阵且$\bsy{A}^k=\bsy{O}$.定义矩阵$$\bsy{X}=\bsy{E}+\bsy{A}+\frac{\bsy{A}^2}{2!}+\cdots+\frac{\bsy{A}^{k-1}}{(k-1)!},$$其中矩阵$\bsy{E}$为单位矩阵.证明:
+
+\begin{enumerate}
+    \item[\textbf{i.}] 矩阵$\bsy{X}$可逆;
+    
+    \item[\textbf{ii.}] 矩阵$\bsy{X}$与矩阵$\bsy{E+A}$相似.
+\end{enumerate}
+
+
+% % 运用矩阵Jordan标准形理论探索\textsf{不可逆}复数矩阵存在“平方根”之充要条件.所谓复数矩阵$\bsy B$存在“平方根”,即$\exists \bsy R \in \CCC^{\sqm},\bsy R^2= \bsy B.$
+% \vspace{15mm}
+
+
+
+
+\end{spacing}
+
+
+
+
+
+\end{document}
